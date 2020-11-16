@@ -1,0 +1,19 @@
+input, button {
+    all: unset;
+    height: 30px;
+}
+input {
+    border: 1px solid grey;
+}
+
+button {
+    border-radius: 0;
+    background-color: blue;
+    color: white;
+}
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.wrapper_weather {
+    text-align: center;
+    color: #E7E7EB;
+    background-color: #1E213A;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.sfp {
+    font-size: 14px;
+    max-width: 150px;
+    background-color: #6E707A;
+    width: 161px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.icon_name {
+    width: 202px;
+}
+
+.temp {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.temp_span {
+    font-size: 144px;
+}
+
+.temp_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #A09FB1;
+}
+.date {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #A09FB1;
+}

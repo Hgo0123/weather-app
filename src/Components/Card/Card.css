@@ -1,0 +1,25 @@
+.card {
+    background-color: #343434;
+    height: 180px;
+    width: 130px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+img {
+    width: 60px;
+    height: auto;
+}
+p {
+    margin: 0;
+}
+.temp_card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
+}
